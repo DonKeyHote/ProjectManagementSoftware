@@ -1,0 +1,12 @@
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\app.db
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\ProjectManagementSoftware.deps.json
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\ProjectManagementSoftware.runtimeconfig.json
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\ProjectManagementSoftware.runtimeconfig.dev.json
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\ProjectManagementSoftware.dll
+C:\VsCode Stuff\Core\ProjectManagementSoftware\bin\Debug\netcoreapp2.0\ProjectManagementSoftware.pdb
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\ProjectManagementSoftware.csproj.CoreCompileInputs.cache
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\ProjectManagementSoftware.AssemblyInfoInputs.cache
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\ProjectManagementSoftware.AssemblyInfo.cs
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\ProjectManagementSoftware.dll
+C:\VsCode Stuff\Core\ProjectManagementSoftware\obj\Debug\netcoreapp2.0\ProjectManagementSoftware.pdb

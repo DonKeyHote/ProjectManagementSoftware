@@ -13130,11 +13130,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\ProjectManagementSoftware.csproj",
+      "projectUniqueName": "C:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\ProjectManagementSoftware.csproj",
       "projectName": "ProjectManagementSoftware",
-      "projectPath": "c:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\ProjectManagementSoftware.csproj",
+      "projectPath": "C:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\ProjectManagementSoftware.csproj",
       "packagesPath": "C:\\Users\\Usan\\.nuget\\packages\\",
-      "outputPath": "c:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\obj\\",
+      "outputPath": "C:\\VsCode Stuff\\Core\\ProjectManagementSoftware\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
