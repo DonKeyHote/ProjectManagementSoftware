@@ -5,13 +5,15 @@
     <UserSecretsId>aspnet-ProjectManagementSoftware-D070B0E0-0128-4B06-B26E-C2C3DD6786E7</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
-    <None Update="app.db" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="PmsDB.db" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.1" PrivateAssets="All" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.Composition" Version="1.0.31" ExcludeAssets="All" />
+    <PackageReference Include="System.Composition" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>

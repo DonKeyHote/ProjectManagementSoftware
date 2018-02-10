@@ -11,9 +11,10 @@ using System;
 namespace ProjectManagementSoftware.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180210074537_restart1")]
+    partial class restart1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -177,49 +178,6 @@ namespace ProjectManagementSoftware.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
-                });
-
-            modelBuilder.Entity("ProjectManagementSoftware.Models.Project", b =>
-                {
-                    b.Property<int>("ProjectID")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<DateTime>("ProjectEndDate");
-
-                    b.Property<string>("ProjectName")
-                        .HasMaxLength(50);
-
-                    b.Property<string>("ProjectNotes")
-                        .HasMaxLength(500);
-
-                    b.Property<DateTime>("ProjectStartDate");
-
-                    b.HasKey("ProjectID");
-
-                    b.ToTable("Project");
-                });
-
-            modelBuilder.Entity("ProjectManagementSoftware.Models.UseCase", b =>
-                {
-                    b.Property<int>("UseCaseID")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("CreatedByEmpNum")
-                        .HasMaxLength(6);
-
-                    b.Property<DateTime>("CreatedDate");
-
-                    b.Property<string>("ModifiedByEmpNum")
-                        .HasMaxLength(6);
-
-                    b.Property<DateTime>("ModifiedDate");
-
-                    b.Property<string>("UseCaseDesc")
-                        .HasMaxLength(150);
-
-                    b.HasKey("UseCaseID");
-
-                    b.ToTable("UseCase");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

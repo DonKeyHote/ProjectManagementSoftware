@@ -11,9 +11,10 @@ using System;
 namespace ProjectManagementSoftware.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20180210074634_Project_mig")]
+    partial class Project_mig
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -197,29 +198,6 @@ namespace ProjectManagementSoftware.Data.Migrations
                     b.HasKey("ProjectID");
 
                     b.ToTable("Project");
-                });
-
-            modelBuilder.Entity("ProjectManagementSoftware.Models.UseCase", b =>
-                {
-                    b.Property<int>("UseCaseID")
-                        .ValueGeneratedOnAdd();
-
-                    b.Property<string>("CreatedByEmpNum")
-                        .HasMaxLength(6);
-
-                    b.Property<DateTime>("CreatedDate");
-
-                    b.Property<string>("ModifiedByEmpNum")
-                        .HasMaxLength(6);
-
-                    b.Property<DateTime>("ModifiedDate");
-
-                    b.Property<string>("UseCaseDesc")
-                        .HasMaxLength(150);
-
-                    b.HasKey("UseCaseID");
-
-                    b.ToTable("UseCase");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

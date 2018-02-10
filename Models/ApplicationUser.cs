@@ -9,10 +9,9 @@ namespace ProjectManagementSoftware.Models
     // Add profile data for application users by adding properties to the ApplicationUser class
     public class ApplicationUser : IdentityUser
     {
-        public override string UserName { get; set; }     
-        public int EmpNum { get; set; }
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string PreferredName { get; set; }
+        // public int? EmpNum { get; set; }
+        // public string FirstName { get; set; }
+        // public string LastName { get; set; }
+        // public string PreferredName { get; set; }
     }
 }
